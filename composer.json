@@ -1,0 +1,12 @@
+{
+    "name": "boyisire/dy-framework",
+    "description": "daye's framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "大业",
+            "email": "boyisire@foxmail.com"
+        }
+    ],
+    "require": {}
+}

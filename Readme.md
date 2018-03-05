@@ -5,14 +5,30 @@
 >以微框架Slim 微基础框架,php 7.0 为PHP版本
 
 3. 定义框架目录结构
+>仿照Laravel
+
 ```
 ├── app
 │   ├── Helpers.php
 │   ├── Http
 │   │   └── Controllers
 │   └── Models
+├── bootstrap
+│   ├── app.php
+│   └── autoload.php
 ├── composer.json
+├── config
+├── public
+│   └── index.php
+├── routers
 └── tests
 ```
 
-4.
+4.安装依赖库
+`composer install`
+
+5.启动框架测试
+`php -S 0.0.0.0:8000 -t public`
+
+
+

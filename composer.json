@@ -8,5 +8,9 @@
             "email": "boyisire@foxmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=7.0.0",
+        "ext-mbstring": "*",
+        "slim/slim": "^3.0"
+    }
 }

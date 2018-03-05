@@ -24,11 +24,16 @@
 └── tests
 ```
 
-4.安装依赖库
+4. 安装依赖库
 `composer install`
 
-5.启动框架测试
+5. 启动框架测试
 `php -S 0.0.0.0:8000 -t public`
 
-6. 添加测试代码
+6. 完善路由和控制器功能
+
+7. 增加数据库功能组件
+>使用Laravel ORM
+
+`composer require illuminate/database "~5.5"`
 

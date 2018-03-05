@@ -6,6 +6,10 @@
 
 require __DIR__.'/../bootstrap/autoload.php';
 
+$config = require __DIR__ . '/../config/databases.php';
+
+
+
 $app = require_once __DIR__.'/../bootstrap/app.php';
 
 /*测试代码-2*/

@@ -10,7 +10,26 @@
     ],
     "require": {
         "php": ">=7.0.0",
-        "ext-mbstring": "*",
         "slim/slim": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/php0unit": "~6.0"
+    },
+    "autoload": {
+        "classmap": [
+            "app/Models"
+        ],
+        "psr-4": {
+            "app\\": "app/"
+        },
+        "files": [
+            "app/Helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
     }
+
 }
